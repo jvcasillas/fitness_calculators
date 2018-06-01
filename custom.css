@@ -1,0 +1,12 @@
+body{
+   /*background-image: url('https://i2.wp.com/www.schoolofwod.com/wp-content/uploads/2017/01/schoolofwod.com_.jpg?w=1024');*/
+   background-color: #F5F5F5;
+   /*min-height: 500px;*/
+   /* Set background image to fixed (don't scroll along with the page) */
+   background-attachment: fixed;
+   background-position: right top;
+   /* Set the background image to no repeat */
+   background-repeat: no-repeat;
+   /* Scale the background image to be as large as possible */
+   background-size: cover;
+}
