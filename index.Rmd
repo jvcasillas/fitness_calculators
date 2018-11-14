@@ -1,5 +1,5 @@
 ---
-title: "Fran time calculator"
+title: "Fitness calculators"
 date: "Last update: `r Sys.Date()`"
 output: 
   html_document: 
@@ -7,9 +7,15 @@ output:
     css: custom.css
 ---
 
+## Fran
+
 https://jvcasillas.shinyapps.io/shiny_fran/
 
 <iframe src="https://jvcasillas.shinyapps.io/shiny_fran/" style="border:none;" height="425" width="100%"></iframe>
 
 The parameter estimates for calculating Fran times came from this blog post:  
 http://www.cebul.la/whats-a-good-fran-crossfit-time/
+
+
+## 1 rep maxes
+
