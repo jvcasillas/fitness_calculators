@@ -160,6 +160,15 @@ cci_score(age = 36, height = 75, weight = 217, sex = "male", bench = 335,
 
 # -----------------------------------------------------------------------------
 
+
+
+
+
+
+
+# Test ------------------------------------------------------------------------
+
+
 bind_rows(
   cci_breakdown(age = 29, height = 69, weight = 195, sex = "male", bench = 400, 
       squat = 475, snatch = 305, mu = 30, mile = "5:32", fran = "2:13") %>% 
@@ -218,3 +227,5 @@ bind_rows(
                    "Donovan"), 
          group = forcats::fct_relevel(group, "Froning", "Joseph", "Sharell", 
                                       "Kelly", "Amada"))
+
+# -----------------------------------------------------------------------------
